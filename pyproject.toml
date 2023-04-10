@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "followfinger"
+version = "0.1.0"
+description = ""
+authors = ["cxzlw <wsc_zds@qq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+twisted = "^22.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
